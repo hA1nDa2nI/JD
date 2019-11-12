@@ -1,0 +1,326 @@
+img {
+	vertical-align: top; 
+}
+.w {  
+	width: 1190px;  
+	margin: 0 auto;  
+}
+.fl { /*浮动的公共类*/
+	float: left;
+}
+.fr {
+	float: right;
+}
+a {
+	text-decoration: none; 
+	font-size: 12px;
+	color: #999;
+}
+a:hover {
+	color: #e33333;
+}
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+input, button {
+	border: 0;
+	outline: none; 
+}
+body {
+	background-color: #f6f6f6;
+}
+.f10 {
+	color: #f10215!important;
+}
+@font-face { 
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?r5tos9');
+  src:  url('../fonts/icomoon.eot?r5tos9#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?r5tos9') format('truetype'),
+    url('../fonts/icomoon.woff?r5tos9') format('woff'),
+    url('../fonts/icomoon.svg?r5tos9#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+header {
+	height: 80px;
+	background-color: #020000;
+}
+.shortcut {
+	background-color: #e3e4e5;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid #ddd;
+}
+.city {
+	margin-left: 200px;
+}
+.shortcut li {
+	float: left;
+}
+.shortcut i {
+	font-family: "icomoon";
+	font-style: normal; 
+	color: #999;
+}
+.space { 
+	width: 1px;
+	height: 10px;
+	background-color: #ccc;
+	margin: 10px 12px 0px; 
+}
+.nav li {
+	position: relative;
+}
+.dropdown-layer {
+	position: absolute;
+	width: 280px;
+	height: 162px;
+	top: 30px;
+	left: -12px;
+	background-color: #e3e4e5;
+	z-index: 999;
+	padding-left: 14px;
+	display: none;
+}
+.dropdown-layer dl {
+	float: left;
+	width: 126px;
+}
+.dropdown-layer .d {
+	border-bottom: 1px solid #ccc;
+}
+.mobile {
+	position: relative;
+}
+.mobile img{
+	position: absolute;
+	left: -3px;
+	top: 24px;
+	border: 1px solid #ccc;
+	padding: 3px;
+}
+.middle {
+	height: 140px;
+	position: relative;
+}
+.logo {
+	position: absolute;
+	top: -30px;
+	left: 0px;
+	box-shadow: 0px -10px 10px rgba(0, 0, 0, .3);
+}
+.logo a {
+	display: block; 
+	width: 190px;
+	height: 170px;	
+	background: #fff url(../images/logo.png) no-repeat;
+}
+.form {
+	width: 550px;
+	height: 35px;
+	position: absolute;
+	top: 25px;
+	left: 320px;
+}
+.form input {
+	width: 495px;
+	height: 33px;
+	border: 1px solid #f10215;
+	float: left;
+	font-size: 14px;
+	padding-left: 3px;
+}
+.form button {
+	width: 50px;
+	height: 35px;
+	float: left;
+	background-color: #f10215;
+}
+.form button i {
+	font-family: "icomoon";
+	font-style: normal;
+	color: #fff;
+}
+.shopCar {
+	width: 188px;
+	height: 33px;
+	line-height: 33px;
+	border: 1px solid #ccc;
+	position: absolute;
+	top: 25px;
+	right: 95px;
+	background-color: #fff;
+	text-align: center;
+	color: #f10215;
+}
+.shopCar i {
+	font-family: icomoon;
+	font-style: normal;
+	margin-right: 5px;
+}
+.shopCar span {
+	width: 15px;
+	height: 15px;
+	background-color: #f10215;
+	border-radius: 50%;
+	position: absolute; 
+	top: 5px;
+	right: 30px;
+	font-size: 12px;
+	color: #fff;
+	line-height: 15px;
+}
+.hotwords {
+	position: absolute;
+	top: 68px;
+	left: 320px;
+}
+.navitems {
+	width: 770px;
+	height: 40px;
+	line-height: 40px;
+	position: absolute;
+	bottom: 0;
+	left: 200px;
+}
+.navitems li {
+	float: left;
+	margin-left: 30px;
+}
+.navitems li a {
+	font-size: 16px;
+	font-weight: 700;
+	color: #555;
+}
+.navitems li a:hover {
+	color: #f10215;
+}
+.navitems .space {
+	margin: 15px -15px 0px 15px;
+}
+.super {
+	position: absolute;
+	bottom: 10px;
+	right: 0;
+}
+footer {
+	margin-top: 35px;
+	height: 560px;
+	background-color: #eaeaea;
+}
+footer a {
+	color: #666;
+}
+.service {
+	padding: 30px 0px;
+	border-bottom: 1px solid #dedede;
+	overflow: hidden; 
+}
+.service ul li {
+	width: 297px;
+	height: 43px;
+	position: relative;
+	line-height: 43px;
+	float: left;
+}
+.service li h5 {
+	position: absolute;
+	top: 0;
+	left: 38px;
+	width: 36px;
+	height: 43px;
+	background: url(../images/ico.png) no-repeat;
+}
+.service li:nth-child(2) h5 {
+	background-position: 0 -43px;
+}
+.service li:nth-child(3) h5 {
+	background-position: 0 -86px;
+}
+.service li:nth-child(4) h5 {
+	background-position: bottom;
+}
+.service li p {
+	font-weight: 700;
+	margin-left: 82px;
+}
+.help {
+	height: 200px;
+	border-bottom: 1px solid #dedede;
+	padding-top: 25px;
+	box-sizing: border-box;
+}
+.help dl {
+	width: 192px;
+	float: left;
+}
+.help dt,
+.coverage h5 {
+	height: 30px;
+	font-size: 14px;
+	color: #666;
+}
+.help dd {
+	height: 22px;
+}
+.coverage {
+	width: 200px;
+	height: 150px;
+	background: url(../images/ico_footer.png) no-repeat;
+}
+.coverage h5 {
+	padding-left: 35px;
+}
+.coverage p {
+	width: 180px;
+	font-size: 12px;
+	color: #666;
+	line-height: 18px;
+}
+.coverage a {
+	display: block;
+	margin-top: 5px;
+	width: 180px;
+	text-align: right;
+}
+.copyright {
+	color: #666;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 12px;
+}
+.copyright span {
+	margin: 0 10px;
+}
+.copyright div p {
+	line-height: 22px;
+}
+.copyright div {
+	margin-top: 22px;
+}
+.foot-icon a {
+	display: inline-block;
+	width: 103px;
+	height: 33px;
+	background: url(../images/ico_footer.png) no-repeat 0 -150px;
+	margin: 20px 4px 0;
+}
+.foot-icon a:nth-child(2) {
+	background-position: -103px -150px;
+}
+.foot-icon a:nth-child(3) {
+	background-position: 0 -183px;
+}
+.foot-icon a:nth-child(4) {
+	background-position: -103px -183px;
+}
+.foot-icon a:nth-child(5) {
+	background-position: 0 -216px;
+}
+.foot-icon a:nth-child(6) {
+	background-position: -103px -216px;
+}

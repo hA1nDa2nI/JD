@@ -1,0 +1,386 @@
+.grid {
+	height: 480px;
+}
+.grid-col1 {
+	width: 190px;
+	height: 100%;
+	background-color: #6e6568;
+	color: #fff;
+	font-size: 14px;
+	position: relative;
+}
+.ad {
+	width: 250px;
+	height: 480px;
+	position: absolute;
+	top: 0;
+	left: -250px;
+}
+.ad-r {
+	position: absolute;
+	top: 0;
+	left: 250px;
+	z-index: 999;
+	width: 0;
+	height: 480px;
+	background: url(../images/ad-r.jpg) no-repeat;
+	transition: all 0.8s;
+}
+.ad:hover .ad-r {
+	width: 990px;
+}
+.grid-col1 ul {
+	padding: 10px 0;
+}
+.grid-col1 ul li {
+	padding-left: 12px;
+	height: 29px;
+	line-height: 26px;
+}
+.grid-col1 ul li:hover {
+	background-color: #9c9698;
+}
+.grid-col1 a {
+	color: #fff;
+	font-size: 14px; 
+	margin: 0 3px;
+}
+.grid-col1 a:hover {
+	color: #f10215;
+}
+.content {
+	position: absolute;
+	width: 1000px;
+	height: 480px;
+	top: 0;
+	left: 185px;
+	border: 1px solid #f7f7f7;
+	background-color: #fff;
+	z-index: 999;
+	box-shadow: 2px 0 5px rgba(0, 0, 0, .3);
+	display: none;
+}
+.channel {
+	height: 24px;
+	padding-left: 20px;
+	padding-top: 20px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.channel a {
+	display: block;
+	padding-left: 10px;
+	padding-right: 13px;
+	height: 24px;
+	line-height: 24px;
+	background-color: #333;
+	float: left;
+	margin: 0 5px;
+}
+.channel a:hover {
+	background-color: #c81623;
+	color: #fff;
+}
+.cate_detail {
+	padding: 10px 17px 0 20px;
+	overflow: hidden; 699
+}
+.cate_detail dl {
+	display: block;
+}
+.cate_detail dt {
+	width: 67px;
+	float: left;
+	padding-right: 6px;
+	text-align: right;
+}
+.cate_detail dt a {
+	color: #333;
+	font-weight: 700;
+	font-size: 12px;
+}
+.cate_detail div {
+	width: 699px;
+	overflow: hidden;
+}
+.cate_detail dd {
+	float: left;
+	margin: 0 7px;
+	height: 22px;
+}
+.cate_detail dd a {
+	color: #666;
+	font-size: 12px;
+}
+/*banner部分开始*/
+.grid-col2 {
+	width: 790px;
+	height: 100%;
+	margin-left: 10px;
+}
+.grid-col2-b div {
+	margin-top: 10px;
+}
+/*箭头部分开始*/
+.grid-col2-t {
+	position: relative;
+	height: 340px;
+}
+.t-img li {
+	position: absolute;
+}
+.arrow-l,
+.arrow-r {
+	position: absolute;
+	top: 50%;
+	width: 30px;
+	height: 60px;
+	background: rgba(0, 0, 0, .3);
+	transform: translateY(-50%);
+	text-align: center;
+	line-height: 60px;
+	font-size: 20px;
+	color: rgba(255, 255, 255, .6);
+	font-family: arial;
+	font-weight: normal;
+}
+.arrow-l {
+	left: 0;
+}
+.arrow-r {
+	right: 0;
+}
+.circle {
+	width: 90px;
+	height: 20px;
+	background-color: rgba(255, 255, 255, .3);
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	transform: translateX(-50%);
+	border-radius: 10px;
+	padding-left: 8px;
+}
+.circle li {
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background-color: #fff;
+	float: left;
+	margin: 4px;
+	cursor: pointer;
+}
+.circle .current {
+	background-color: #f10215;
+}
+/*右边模块*/
+.grid-col3 {
+	width: 190px;
+	height: 100%;
+	background-color: #fff;
+}
+.login {
+	height: 85px;
+	border-bottom: 1px solid #ccc;
+	padding: 15px;
+}
+.login-t {
+	width: 95px;
+	height: 60px;
+	line-height: 20px;
+	font-size: 12px;
+	white-space: nowrap; 
+	overflow: hidden; 
+	text-overflow: ellipsis; 
+	color: #666;
+	padding-left: 60px;
+	position: relative;
+}
+.login-t a {
+	color: #666;
+}
+.login-t a:hover {
+	color: #f10512;
+}
+.user_info {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: url(../images/sprite_userinfo@1x.png) -70px 0 no-repeat;
+}
+.user_info img {
+	width: 40px;
+	border-radius: 50%;
+	margin: 5px;
+}
+.login-b a {
+	display: inline-block;
+	width: 70px;
+	height: 20px;
+	line-height: 20px;
+	border: 2px solid #f10215; 
+	margin-right: 3px;
+	text-align: center;
+	color: #f10215;
+}
+.login-b a:hover {
+	background-color: #f10215;
+	color: #fff;
+}
+.news {
+	height: 154px;
+	border-bottom: 1px solid #ccc;
+	padding: 7px 13px 0;
+	box-sizing: border-box;
+}
+.news-t {
+	height: 19px;
+	border-bottom: 1px solid #ccc;
+	position: relative;
+}
+.news-t a {
+	float: left;
+	height: 17px;
+	line-height: 17px;
+}
+.cuxiao {
+	width: 38px;
+	border-right: 1px solid #ccc;
+}
+.gg {
+	margin-left: 15px;
+}
+.news-t .more {
+	float: right;
+}
+.news-t div {
+	width: 28px;
+	height: 2px;
+	background-color: #f10215;
+	position: absolute;
+	bottom: -1px;	
+}
+.redline {
+	left: 0; 
+	display: none;
+}
+.redline:last-child {
+	left: 51px;
+	display: block;
+}
+.news-b {
+	padding-top: 15px;
+}
+.news-b li {
+	height: 23px;
+	line-height: 23px;
+}
+.news-l {
+	display: none;
+}
+.news-r {
+	width: 160px;
+}
+.news-r a {
+	display: block;
+	white-space: nowrap; 
+	overflow: hidden; 
+	text-overflow: ellipsis; 
+}
+.news-r span {
+    font-size: 12px;
+    height: 16px;
+    width: 35px;
+    line-height: 16px;
+    text-align: center;
+    color: #e1251b;
+    background-color: rgba(225,37,27,.08);
+    margin-right: 6px;
+}
+.expand {
+	height: 209px;
+	overflow: hidden;
+}
+.expand ul {
+	width: 195px;
+}
+.expand li {
+	width: 47px;
+	height: 69px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	float: left;
+}
+.expand li a {
+	display: block;
+	padding-top: 15px;
+	text-align: center;
+}
+.expand li i {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	background: url(../images/sprite_fs@1x.png) no-repeat;
+}
+.expand li:first-child i {
+	width: 18px;
+	height: 23px;
+	background-position: -5px -88px;
+}
+.expand li:nth-child(2) i {
+	width: 20px;
+	height: 20px;
+	background-position: -2px -46px;
+}
+.expand li:nth-child(3) i {
+	width: 18px;
+	height: 20px;
+	background-position: -47px -90px;
+}
+.expand li:nth-child(4) i {
+	width: 24px;
+	height: 20px;
+	background-position: -88px -3px;
+}
+.expand li:nth-child(5) i {
+	width: 22px;
+	height: 20px;
+	background-position: -89px -46px;
+}
+.expand li:nth-child(6) i {
+	width: 18px;
+	height: 20px;
+	background-position: -3px -2px;
+}
+.expand li:nth-child(7) i {
+	width: 22px;
+	height: 20px;
+	background-position: -45px -46px;
+}
+.expand li:nth-child(8) i {
+	width: 15px;
+	height: 22px;
+	background-position: -93px -89px;
+}
+.expand li:nth-child(9) i {
+	width: 18px;
+	height: 21px;
+	background-position: -135px -1px;
+}
+.expand li:nth-child(10) i {
+	width: 17px;
+	height: 23px;
+	background-position: -136px -45px;
+}
+.expand li:nth-child(11) i {
+	width: 22px;
+	height: 20px;
+	background-position: -133px -90px;
+}
+.expand li:nth-child(12) i {
+	width: 15px;
+	height: 22px;
+	background-position: -48px -1px;
+}
