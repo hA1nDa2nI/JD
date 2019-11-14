@@ -384,3 +384,95 @@
 	height: 22px;
 	background-position: -48px -1px;
 }
+.recommend {
+	height: 163px;
+	margin-top: 10px;
+}
+.recom-hd {
+	width: 190px;
+	height: 163px;
+	background-color: #5c5251;
+	text-align: center;
+}
+.recom-hd img {
+	margin: 30px 0 10px 0;
+}
+.recom-hd h3 {
+	font-size: 18px;
+	color: #fff;
+	font-weight: normal;
+}
+.recom-bd {
+	width: 1000px;
+	height: 163px;
+	background-color: #ebebeb;
+}
+.recom-bd li {
+	width: 249px;
+	height: 145px;
+	border-right: 1px solid #ccc;
+	float: left;
+	margin-top: 10px;
+}
+.recom-bd li:last-child() {
+	border-right: 0;
+}
+.box-hd {
+	height: 30px;
+	border-bottom: 2px solid #f10215;
+	margin-top: 25px;
+}
+.box-hd h3 {
+	float: left;
+	font-size: 18px;
+	color: #f10215;
+}
+.tab-list {
+	float: right;
+	line-height: 30px;
+}
+.tab-list li {
+	float: left;
+	font-size: 14px;
+	color: #ccc;
+}
+.tab-list  li a {
+	margin: 0 15px;
+}
+.box-bd {
+	height: 360px;
+}
+.w199 {
+	width: 199px;
+	background-color: #f9f9f9;
+}
+.w329 {
+	width: 329px;
+}
+.w219 {
+	width: 219px;
+	border-right: 1px solid #ccc;
+}
+.w220 {
+	width: 220px;
+	border-right: 1px solid #ccc;
+}
+.tab-con li {
+	height: 360px;
+	float: left
+}
+.tab-con-item {
+	border-bottom: 1px solid #ccc;
+}
+.tab-con-list {
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.tab-con-list li {
+	width: 86px;
+	height: 32px;
+	line-height: 32px;
+	border-bottom: 1px solid #ccc;
+	margin-left: 10px;
+	text-align: center;
+}
