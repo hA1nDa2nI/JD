@@ -1,0 +1,42 @@
+.w {
+    width: 1200px;
+    margin: auto;
+}
+a {
+	text-decoration: none; 
+}
+header {
+    height: 122px;
+    border-bottom: 2px solid #E1200E;
+}
+.logo a {
+    display: block; 
+	width: 190px;
+	height: 120px;	
+    background: #fff url(../images/biglogo.png) no-repeat;
+    float: left;
+}
+.registerarea {
+    height: 520px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+.registerarea h3 {
+    border-bottom: 1px solid #ccc;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ececec;
+    padding: 0 10px;
+    font-weight: 400;
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+.registerarea em {
+    float: right;
+    font-style: normal;
+    font-size: 14px;
+}
+.registerarea a {
+    color: #E1200E;
+}

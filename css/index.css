@@ -1,5 +1,6 @@
 .grid {
 	height: 480px;
+	margin-top: 10px;
 }
 .grid-col1 {
 	width: 190px;
@@ -9,26 +10,6 @@
 	font-size: 14px;
 	position: relative;
 }
-.ad {
-	width: 250px;
-	height: 480px;
-	position: absolute;
-	top: 0;
-	left: -250px;
-}
-.ad-r {
-	position: absolute;
-	top: 0;
-	left: 250px;
-	z-index: 999;
-	width: 0;
-	height: 480px;
-	background: url(../images/ad-r.jpg) no-repeat;
-	transition: all 0.8s;
-}
-.ad:hover .ad-r {
-	width: 990px;
-}
 .grid-col1 ul {
 	padding: 10px 0;
 }
@@ -36,6 +17,10 @@
 	padding-left: 12px;
 	height: 29px;
 	line-height: 26px;
+	transition: all .5s;
+}
+.grid-col1 ul li:hover {
+	padding-left: 20px;
 }
 .grid-col1 ul li:hover {
 	background-color: #9c9698;
@@ -442,6 +427,15 @@
 .box-bd {
 	height: 360px;
 }
+.box-bd li {
+	overflow: hidden;
+}
+.box-bd img {
+	transition: all .2s;
+}
+.box-bd img:hover {
+	margin-left: 5px;
+}
 .w199 {
 	width: 199px;
 	background-color: #f9f9f9;
@@ -475,8 +469,24 @@
 	border-bottom: 1px solid #ccc;
 	margin-left: 10px;
 	text-align: center;
-<<<<<<< HEAD
 }
-=======
+.fixedtool {
+	position: fixed;
+	top: 260px;
+	left: 50%;  /* 先走浏览器宽度的一半 */
+	margin-left: -667px;  /* 再走版心的一半加自己本身宽度再加10px空白 1190/2+66+10 */
+	width: 62px;
 }
->>>>>>> be15babf5f8af3a3b071892ffa99cc233193669f
+.fixedtool li {
+	height: 32px;
+	line-height: 32px;
+	font-size: 12px;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	cursor: pointer;
+	background-color: #fff;
+}
+.fixedtool .current {
+	background-color: #f10215;
+	color: #fff;
+}
