@@ -1,3 +1,6 @@
+body {
+    background-color: #fff;
+}
 .w {
     width: 1200px;
     margin: auto;
@@ -32,11 +35,129 @@ header {
     font-size: 18px;
     color: #333;
 }
-.registerarea em {
+.registerarea h3 em {
     float: right;
     font-style: normal;
     font-size: 14px;
 }
 .registerarea a {
     color: #E1200E;
+}
+.reg_form {
+    width: 600px;
+    height: 400px;
+    margin: 40px auto;
+}
+.reg_form li {
+    margin-bottom: 15px;
+}
+.reg_form label {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+}
+.reg_form  .inp {
+    width: 238px;
+    height: 34px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+}
+.password,
+.repassword {
+    position: relative;
+}
+.password img,
+.repassword img {
+    position: absolute;
+    top: 5px;
+    left: 325px;
+}
+.hint {
+    color: #69BEEB;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.error {
+    color: #df3033;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.hint em,
+.success em,
+.error em {
+    font-style: normal;
+}
+.hint_icon,
+.error_icon,
+.success_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    background: url(../images/wrong.png) no-repeat;
+    margin-top: 3px;
+}
+.success {
+    color: #40b83f;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.success_icon {
+    background: url(../images/right.png) no-repeat;
+}
+.hint_icon {
+    background: url(../images/mess.png) no-repeat;
+}
+.safe {
+    padding-left: 187px;
+    color: #b2b2b2;
+    font-size: 12px;
+}
+.safe em {
+    padding: 0 12px;
+    font-style: normal;
+    color: #fff;
+}
+.ruo {
+    background-color: #de1111;
+}
+.zhong {
+    background-color: #40b83f;
+}
+.qiang {
+    background-color: #f79100;
+}
+.agree {
+    padding-left: 114px;
+    font-size: 12px;
+}
+.agree input {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.agree a {
+    color: #1ba1e6;
+}
+.over {
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    margin: 30px 130px;
+    color: #fff;
+}
+.footer {
+    height: 120px;
+    text-align: center;
+}
+.links {
+    height: 30px;
+    margin-top: 20px;
+}
+.copyright {
+	color: #666;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 12px;
 }
