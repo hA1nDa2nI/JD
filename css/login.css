@@ -1,0 +1,249 @@
+body {
+    background-color: #fff;
+}
+a {
+	text-decoration: none; 
+}
+header {
+    height: 122px;
+    position: relative;
+    margin: 0 100px;
+}
+.logo a {
+    display: block; 
+	width: 170px;
+    height: 60px;
+    margin-top: 40px;	
+    background: url(../images/smalllogo.png) no-repeat;
+    float: left;
+}
+header b {
+    position: absolute;
+    width: 110px;
+    height: 40px;
+    background: url(../images/l-icon.png) no-repeat;
+    top: 65px;
+    left: 180px;
+}
+.questionnaire {
+    display: inline-block;
+    float: right;
+    margin-top: 90px;
+    position: relative;
+}
+.questionnaire b {
+    position: absolute;
+    width: 18px;
+    height: 14px;
+    left: -22px;
+    top: 0;
+    background: url(../images/q-icon.png) no-repeat;
+}
+.tips-wrapper,
+.login-tips {
+    height: 40px;
+    background-color: #FFF8F0;
+    text-align: center;
+    line-height: 40px;
+    color: #999;
+    font-size: 12px;
+}
+.tips-wrapper i,
+.login-tips i {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../images/icon-tips.png) no-repeat;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+.login-wrap {
+    height: 475px;
+    background-color: #e93854;
+}
+.login-bg {
+    width: 990px;
+    height: 475px;
+    background: url(../images/bg-login.png) no-repeat;
+    margin: 0 auto;
+}
+.login_form {
+    width: 346px;
+    height: 428px;
+    float: right;
+    margin-top: 10px;
+    background-color: #fff;
+}
+.login-tab {
+    overflow: hidden;
+}
+.login-tab-l,
+.login-tab-r {
+    width: 173px;
+    height: 55px;
+    border-bottom: 1px solid #ccc;
+    float: left;
+}
+.login-tab a {
+    display: inline-block;
+    width: 172px;
+    font-size: 18px;
+    margin-top: 18px;
+    text-align: center;
+    color: #333;
+}
+.login-tab-l a {
+    border-right: 1px solid #ccc;
+}
+.login-tab .current a,
+.login-tab a:hover {
+    color: #e4393c;
+    font-weight: 700;
+}
+.mc {
+    width: 306px;
+    /* height: 270px; */
+    margin: 20px auto 0;
+}
+.mc:last-child {
+    display: none;
+}
+.login-ewm {
+    width: 171px;
+    height: 163px;
+    border: 1px solid #ccc;
+    margin: auto;
+}
+.login-ewm img {
+    margin: 8px 12px;
+}
+.mc p {
+    margin: 24px 0 17px 0;
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+}
+.mc ul {
+    overflow: hidden;
+    padding: 0 38px;
+}
+.mc li {
+    height: 25px;
+    float: left;
+}
+.mc i {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url(../images/qr-coagent.png) 0 0 no-repeat;
+    vertical-align: middle;
+}
+.mc .coagent-second {
+    background-position: -27px 0;
+    margin-left: 29px;
+}
+.mc .coagent-last {
+    background-position: -54px 0;
+    margin-left: 29px;
+}
+.mc li em {
+    font-style: normal;
+    color: #999;
+    font-size: 12px;
+}
+.login_uname,
+.login_password {
+    margin-top: 33px;
+    border: 1px solid #bdbdbd;
+    height: 38px;
+    width: 304px;
+    background-color: red;
+    position: relative;
+}
+.login_uname input,
+.login_password input {
+    padding: 10px 0 10px 50px;
+    width: 254px;
+    height: 18px;
+    line-height: 18px;
+}
+.login_uname label,
+.login_password label {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: 0;
+    left: 0;
+    border-right: 1px solid #bdbdbd;
+    background: url(../images/pwd-icons-new.png) no-repeat;
+    background-position: 0 0;
+}
+.login_password label {
+    background-position: 0 0;
+}
+.forgot {
+    width: 304px;
+    height: 36px;
+    margin-top: 23px;
+    text-align: right;
+}
+.over {
+    width: 305px;
+    height: 34px;
+    background-color: #e4393c;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.login-bd {
+    margin-top: 18px;
+    height: 49px;
+    border-top: 1px solid #ccc;
+    padding: 0 21px;
+}
+.login-bd .qqwx-ico {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url(../images/QQ-weixin.png) no-repeat;
+    background-position: -1px 0;
+    vertical-align: middle;
+    margin: -2px 5px 0 0;
+
+}
+.login-bd .login-bd-last {
+    background-position: -20px 0;
+}
+.login-bd span {
+    line-height: 50px;
+}
+.line {
+    color: #ccc;
+    padding: 0 10px;
+}
+.gotoregist {
+    display: inline-block;
+    float: right;
+}
+.gotoregist {
+    color: #b61d1d;
+    font-size: 16px;
+    line-height: 50px;
+}
+.gotoregist i {
+    font-family: icomoon;
+    font-style: normal;
+}
+.footer {
+    height: 120px;
+    text-align: center;
+}
+.links {
+    height: 30px;
+    margin-top: 20px;
+}
+.copyright {
+	color: #666;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 12px;
+}

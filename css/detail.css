@@ -67,10 +67,10 @@
     width: 718px;
 }
 .sku_name {
-    height: 30px;
     font-size: 16px;
     font-weight: 700;
     color: #333;
+    margin-bottom: 10px;
 }
 .news {
     height: 32px;
@@ -311,4 +311,23 @@
     float: right;
     font-weight: 700;
     font-family: 'icomoon';
+}
+.item h3, dt, dd {
+    color: #999;
+    font-size: 12px;
+}
+.item h3 {
+    display: inline-block;
+    width: 110px;
+    text-align: right;
+    float: left;
+    margin-right: 50px;
+}
+.item dd {
+    width: 100px;
+    text-align: right;
+}
+.item dt {
+    margin-left: 50px;
+    display: block; 
 }

@@ -76,4 +76,21 @@ $(function() {
             }
         }
     });
+
+    $("form").submit(function() {
+        if ($("#tel").val() == '') {
+            alert("手机号码不能为空!");
+        } else if ($("#code").val() == '') {
+            alert("短信验证码不能为空!");
+        } else if ($("#psw").val() == '') {
+            alert("密码不能为空!");
+        } else if ($("#repsw").val() == '') {
+            alert("确认密码不能为空!");
+        } else if (!$(".agree input[type='checkbox']").prop("checked")){
+            alert("请先同意《京东用户注册协议和隐私政策》协议。");
+        } else {
+            alert("注册成功!");
+            $("form").attr("action","login.html?tel="+$("#tel").val()+"&psw="+$("#psw").val());
+        } 
+    });
 });
