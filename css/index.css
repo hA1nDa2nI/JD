@@ -473,9 +473,9 @@
 .fixedtool {
 	position: fixed;
 	top: 260px;
-	left: 50%;  /* 先走浏览器宽度的一半 */
-	margin-left: -667px;  /* 再走版心的一半加自己本身宽度再加10px空白 1190/2+66+10 */
-	width: 62px;
+	right: 50%;  /* 先走浏览器宽度的一半 */
+	margin-right: -657px;  /* 再走版心的一半加自己本身宽度再加2px空白 1190/2+66+2 */
+	width: 60px;
 }
 .fixedtool li {
 	height: 32px;
@@ -486,7 +486,11 @@
 	cursor: pointer;
 	background-color: #fff;
 }
-.fixedtool .current {
+.fixedtool li:first-child {
+	color: #e1251b;
+}
+.fixedtool ul .current {
 	background-color: #f10215;
 	color: #fff;
+	transition: all .2s;
 }

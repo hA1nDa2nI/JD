@@ -293,16 +293,21 @@
     float: left;
     cursor: pointer;
 }
-.detail_tab_list .current {
+.detail_tab_list li:hover {
+    color: #c81623;
+}
+.detail_tab_list ul .current {
     background-color: #c81623;
     color: #fff;
 }
 .item_info {
     padding: 20px 0 0 20px;
+
 }
 .item_info li {
     font-size: 14px;
     line-height: 22px;
+    overflow: hidden;
 }
 .item p {
     margin-bottom: 20px;
@@ -312,22 +317,35 @@
     font-weight: 700;
     font-family: 'icomoon';
 }
+.line li {
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0 15px 0;
+}
+.line li:last-child {
+    border-bottom: 0;
+}
 .item h3, dt, dd {
     color: #999;
     font-size: 12px;
 }
 .item h3 {
     display: inline-block;
+    float: left;
     width: 110px;
     text-align: right;
+}
+.item dl {
     float: left;
-    margin-right: 50px;
+    width: 800px;
 }
 .item dd {
-    width: 100px;
+    display: inline-block;
+    width: 165px;
+    height: 26px;
+    line-height: 26px;
     text-align: right;
 }
 .item dt {
+    display: inline-block;
     margin-left: 50px;
-    display: block; 
 }

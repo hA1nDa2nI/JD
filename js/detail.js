@@ -40,7 +40,9 @@ $(function() {
         $(this).addClass("current").siblings().removeClass("current");
     });
 
-    $(".detail_tab_list li").mouseover(function() {
+    $(".detail_tab_list li").click(function() {
+        var index = $(this).index();
         $(this).addClass("current").siblings().removeClass("current");
+        $(".item").eq(index).show().siblings().hide();
     });
 });

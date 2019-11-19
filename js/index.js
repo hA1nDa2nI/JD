@@ -50,4 +50,9 @@ $(function() {
     $(".arrow-l").click(function () {
         moveL();
     });
+
+    $(".fixedtool li").mouseover(function() {
+        var index = $(this).index();
+        $(this).addClass("current").siblings().removeClass("current");
+    })
 });
