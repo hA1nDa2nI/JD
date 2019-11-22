@@ -5,7 +5,7 @@ $(function() {
     });
     function countdown() {
         var nowtime = +new Date();
-        var inputtime = +new Date('2019-11-21 17:30:00');
+        var inputtime = +new Date('2019-11-22 24:00:00');
         var times = (inputtime - nowtime) / 1000;
         var h = parseInt(times / 60 / 60 % 24);
         h = h < 10 ? '0' + h : h;
@@ -40,7 +40,7 @@ $(function() {
         $(".t-img li").eq(index).stop().fadeIn(1000).siblings().stop().fadeOut(1000);
     })
 
-    var time=setInterval(move,2000);
+    var time = setInterval(move,2000);
     function move() {
         index++;
         if (index==4){
