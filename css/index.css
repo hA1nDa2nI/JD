@@ -369,38 +369,113 @@
 	height: 22px;
 	background-position: -48px -1px;
 }
-.recommend {
-	height: 163px;
+.countdown {
+	height: 260px;
 	margin-top: 10px;
 }
-.recom-hd {
+.countdown-hd {
 	width: 190px;
-	height: 163px;
-	background-color: #5c5251;
+	height: 260px;
+	background: url(../images/skill.png) no-repeat;
 	text-align: center;
-}
-.recom-hd img {
-	margin: 30px 0 10px 0;
-}
-.recom-hd h3 {
-	font-size: 18px;
 	color: #fff;
-	font-weight: normal;
 }
-.recom-bd {
+.countdown-hd h3 {
+	font-size: 30px;
+	margin-top: 35px;
+}
+.hd_countdown {
+	margin-top: 100px;
+	font-size: 14px;
+} 
+.hd_countdown strong {
+	font-size: 18px;
+}
+.timer {
+    width: 130px;
+    height: 30px;
+    margin-top: 10px;
+	margin: 20px auto 0;
+	overflow: hidden;
+}
+.timer span {
+	display: inline-block;
+	background-color: #2f3430;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	margin-right: 20px;
+	font-size: 20px;
+	float: left;
+	position: relative;
+}
+.timer span:last-child {
+	margin-right: 0;
+}
+.timer span::after {
+	content: ":";
+	position: absolute;
+	right: -20px;
+	top: -2px;
+	width: 20px;
+	height: 100%;
+	font-weight: bolder;
+}
+.countdown-bd {
 	width: 1000px;
-	height: 163px;
+	height: 260px;
 	background-color: #ebebeb;
 }
-.recom-bd li {
+.countdown-bd li {
 	width: 249px;
-	height: 145px;
+	height: 160px;
 	border-right: 1px solid #ccc;
 	float: left;
-	margin-top: 10px;
+	margin-top: 50px;
 }
-.recom-bd li:last-child() {
+.countdown-bd li:last-child() {
 	border-right: 0;
+}
+.recomment {
+	height: 260px;
+	margin-top: 20px;
+}
+.recom-l {
+	float: left;
+	width: 190px;
+	height: 100%;
+	background: url(../images/recomment.png) no-repeat;
+}
+.recom-r {
+	float: left;
+	width: 990px;
+	height: 100%;
+	margin-left: 10px;
+	overflow: hidden;
+	background-color: #fff;
+}
+.recom-r:hover ul {
+	animation-play-state: paused;
+}
+.recom-r ul {
+	width: 200%;
+	animation: moving 8s linear infinite;
+}
+@keyframes moving {
+	from {
+		transform: translateX(0);
+	} to {
+		transform: translateX(-990px);
+	}
+}
+.recom-r li {
+	float: left;
+	width: 150px;
+	height: 181px;
+	margin: 20px 15px 0 0;
+}
+.recom-r li:nth-child(2n) {
+	margin: 50px 15px 0 0;
 }
 .box-hd {
 	height: 30px;
