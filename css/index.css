@@ -1,3 +1,22 @@
+.mr-g {
+	width: 304px;
+}
+.mr-g ul {
+	display: flex;
+	margin-top: 10px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.mr-g li {
+	width: 76px;
+	float: left;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.mr-g img {
+	display: block;
+	margin: 0 auto;
+}
 .grid {
 	height: 480px;
 	margin-top: 10px;
@@ -553,13 +572,15 @@
 	width: 60px;
 }
 .fixedtool li {
-	height: 32px;
-	line-height: 32px;
+	height: 40px;
+	width: 30px;
+	line-height: 20px;
 	font-size: 12px;
 	text-align: center;
 	border-bottom: 1px solid #ccc;
 	cursor: pointer;
 	background-color: #fff;
+	padding: 5px 0;
 }
 .fixedtool li:first-child {
 	color: #e1251b;
@@ -568,4 +589,139 @@
 	background-color: #f10215;
 	color: #fff;
 	transition: all .2s;
+}
+@media only screen and (min-width: 500px) {
+	.mr-g,
+	.zhai,
+	.recom-l p,
+	.m-copyright,
+	.commonNav {
+		display: none;
+	}
+}
+@media only screen and (max-width: 323px) {
+	.w {
+		width: 304px;
+		overflow: hidden;
+	}
+	.grid,
+	.countdown-bd .kuan,
+	.recom-r li:nth-child(5n),
+	.recom-r li:nth-child(6n),
+	.tab-list,
+	.tab-con-list,
+	.fixedtool,
+	footer {
+		display: none;
+	}
+	.countdown {
+		height: 320px;
+		width: 304px;
+	}
+	.countdown-hd {
+		width: 304px;
+		height: 240px;
+		background: url(../images/m-skill.png) no-repeat;
+		background-size: 304px;
+		text-align: center;
+	}
+	.countdown-hd h3 {
+		margin-top: 20px;
+		width: 304px;
+	}
+	.recomment {
+		height: 180px;
+	}
+	.hd_countdown {
+		margin-top: 100px;
+	}
+	.countdown-bd {
+		width: 304px;
+		height: 80px;
+	}
+	.countdown-bd ul {
+		display: flex;
+		height: 80px;
+	}
+	.countdown-bd li {
+		margin: auto;
+		flex: 1;
+		height: 80px;
+	}
+	.countdown-bd li:nth-child(4) {
+		border-right: 0;
+	}
+	.recom-l {
+		width: 304px;
+		height: 60px;
+		background: url(../images/recomment.png) 0 -170px no-repeat;
+		background-size: cover;
+	}
+	.recom-l p {
+		text-align: center;
+		line-height: 60px;
+		font-size: 24px;
+		font-weight: 700;
+		color: #fff;
+	}
+	.recom-r {
+		width: 304px;
+		margin-top: 30px;
+		height: 80px;
+	}
+	.recom-r ul {
+		width: 200%;
+	}
+	@keyframes moving {
+		from {
+			transform: translateX(0);
+		} to {
+			transform: translateX(-304px);
+		}
+	}
+	.recom-r li {
+		float: left;
+		width: 76px;
+		height: 76px;
+		margin: 0;
+	}
+	.recom-r li img {
+		width: 76px;
+		height: 76px;
+	}
+	.recom-r li:nth-child(2n) {
+		margin: 0;
+	}
+	.tab-con li {
+		overflow: hidden;
+	}
+	.w329 {
+		width: 304px;
+	}
+	.home_electric,
+	.phone_address,
+	.computer_working {
+		overflow: hidden;
+	}
+	.m-copyright p {
+		text-align: center;
+		font-size: 12px;
+		color: #333;
+	}
+	.commonNav {
+		width: 304px;
+		position: fixed;
+    	left: 0;
+    	bottom: 0;
+		z-index: 999;
+		background-color: #fff;
+		box-shadow: 0 0 10px 0 hsla(0, 6%, 58%, .6)
+	}
+	.commonNav ul {
+		display: flex;
+	}
+	.commonNav li {
+		float: left;
+		flex: 1;
+	}
 }

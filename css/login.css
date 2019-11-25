@@ -179,7 +179,13 @@ header b {
     background-position: 0 0;
 }
 .login_password label {
-    background-position: 0 0;
+    background-position: -48px 0;
+}
+.login_uname .yi {
+    background-position: 0 -96px;
+}
+.login_password .yi {
+    background-position: -48px -96px;
 }
 .forgot {
     width: 304px;

@@ -90,7 +90,7 @@ $(function() {
             alert("请先同意《京东用户注册协议和隐私政策》协议。");
         } else {
             alert("注册成功!");
-            $("form").attr("action","login.html?tel="+$("#tel").val()+"&psw="+$("#psw").val());
+            $("form").attr("action","login.html");
         } 
     });
 });

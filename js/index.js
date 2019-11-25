@@ -5,7 +5,7 @@ $(function() {
     });
     function countdown() {
         var nowtime = +new Date();
-        var inputtime = +new Date('2019-11-22 24:00:00');
+        var inputtime = +new Date('2019-11-25 24:00:00');
         var times = (inputtime - nowtime) / 1000;
         var h = parseInt(times / 60 / 60 % 24);
         h = h < 10 ? '0' + h : h;
@@ -32,7 +32,12 @@ $(function() {
         $(".news-b ul").eq(index).show().siblings().hide();
         $(".redline").eq(index).show().siblings('.redline').hide();
     })
-
+    $(".content").mouseover(function() {
+        $(this).show();
+    });
+    $(".content").mouseout(function() {
+        $(this).hide();
+    });
     var index=3;
     $(".circle li").mouseover(function() {
         var index = $(this).index();
@@ -74,4 +79,5 @@ $(function() {
         var index = $(this).index();
         $(this).addClass("current").siblings().removeClass("current");
     });
+
 });

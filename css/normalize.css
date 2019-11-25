@@ -509,3 +509,11 @@ body {
   font-style: normal;
   font-display: block;
 }
+.clearfix:after {
+    clear: both;
+}
+.clearfix:after, .clearfix:before {
+    display: table;
+    content: "";
+    line-height: 0;
+}

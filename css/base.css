@@ -1,6 +1,9 @@
 header {
 	height: 80px;
-	background-color: #020000;
+}
+header a {
+	display: block;
+	height: 80px;
 }
 .shortcut {
 	background-color: #e3e4e5;
@@ -55,13 +58,13 @@ header {
 .mobile img{
 	position: absolute;
 	left: -3px;
-	top: 24px;
+	top: 32px;
 	border: 1px solid #ccc;
 	padding: 3px;
 }
 .mobile i {
 	position: absolute;
-	top: 24px;
+	top: 32px;
 	left: 65px;
 	width: 15px;
 	height: 15px;
@@ -69,6 +72,7 @@ header {
 	text-align: center;
 	border: 1px solid #ccc;
 	border-left: 0;
+	cursor: pointer;
 }
 .middle {
 	height: 140px;
@@ -81,9 +85,6 @@ header {
 }
 .logo a {
 	display: block; 
-	width: 190px;
-	height: 120px;	
-	background: #fff url(../images/biglogo.png) no-repeat;
 	text-indent: -999px;
 	overflow: hidden;
 	/*font-size: 0;*/
@@ -292,4 +293,56 @@ footer a {
 }
 .foot-icon a:nth-child(6) {
 	background-position: -103px -216px;
+}
+
+@media only screen and (min-width: 500px) {
+	header,
+	.shortcut {
+		display: block;
+	}
+	.logo a {
+		width: 190px;
+		height: 120px;
+		background: #fff url(../images/biglogo.png) no-repeat;
+	}
+}
+@media only screen and (max-width: 323px) {
+	.w {
+		width: 304px;
+	}
+	.middle {
+		width: 304px;
+		height: 70px;
+	}
+	header,
+	.shortcut {
+	    display: none;
+	}
+	.logo {
+		left: 10px;
+	}
+	.logo a {
+		width: 70px;
+		height: 42px;
+		background: #fff url(../images/smalllogo.png) no-repeat;
+		background-size: 70px 42px;
+	}
+	.form {
+		width: 208px;
+		height: 36px;
+		left: 90px;
+		top: 20px;
+	}
+	.form input {
+		width: 160px;
+	}
+	.form button {
+		width: 40px;
+	}
+	.shopCar,
+	.hotwords,
+	.navitems,
+	.super {
+		display: none;
+	}
 }

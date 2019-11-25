@@ -1,0 +1,202 @@
+html, body {
+    background-color: antiquewhite;
+    font-family: Hiragino Sans GB, Microsoft Yahei, arial, '宋体', Helvetica Neue, Helvetica, STHeiTi, sans-serif
+}
+
+body .foot-bar .inner {
+    padding-bottom: 0
+}
+
+.ellipse {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.inner {
+    width: 1200px;
+    margin: auto;
+    height: 100%;
+    position: relative
+}
+
+body .main-container {
+    padding-top: 40px
+}
+
+.main-container {
+    background-size: cover
+}
+
+.main-container .inner {
+    padding-bottom: 24px
+}
+
+.main-container .app-container {
+    width: 1024px;
+    margin: 0 auto;
+    background: rgba(157, 153, 153, 0.22);
+    position: relative
+}
+
+.main-container .app-container .title-bar {
+    height: 89px;
+    background: rgba(255, 255, 255, .82);
+    padding-left: 26px;
+    overflow: hidden
+}
+
+.main-container .app-container .title-bar .title {
+    font-size: 18px;
+    color: #2f2f2f;
+    margin-top: 16px;
+    margin-bottom: 12px;
+    padding-right: 200px
+}
+
+.main-container .app-container .desc {
+    margin-bottom: 12px;
+    line-height: 25px;
+    height: 25px;
+    font-size: 14px;
+    color: #535252
+}
+
+.main-container .app-container .desc .span-view-count {
+    display: none;
+    float: left;
+    margin-right: 15px;
+    position: relative;
+    top: -8px
+}
+
+.main-container .app-container .desc .bdsharebuttonbox {
+    float: left
+}
+
+.main-container .app-container .qr-code-wrapper {
+    width: 89px;
+    height: 89px;
+    position: absolute;
+    right: 25px;
+    top: 0
+}
+
+.main-container .app-container .display-area {
+    height: 760px;
+    overflow: hidden;
+    position: relative
+}
+
+.main-container .app-container .display-area .btn-prev, .main-container .app-container .display-area .btn-next {
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    left: 580px;
+    top: 491px;
+    border: 0;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+
+.main-container .app-container .display-area .btn-prev:hover {
+    background-repeat: no-repeat;
+}
+
+.main-container .app-container .display-area .btn-next {
+    top: 555px;
+    background-repeat: no-repeat;
+}
+
+.main-container .app-container .display-area .btn-next:hover {
+    background-repeat: no-repeat;
+}
+
+.main-container .app-container .mobile-content {
+    display: none
+}
+
+.main-container .app-container .mobile-simulator {
+    width: 323px;
+    height: 675px;
+    background: url(../images/mobile-2.png) no-repeat center center;
+    margin: 15px auto;
+    position: relative
+}
+
+.main-container .app-container .mobile-simulator .title {
+    position: absolute;
+    left: 50%;
+    top: 83px;
+    width: 180px;
+    margin-left: -90px;
+    color: #fff;
+    text-align: center
+}
+
+.main-container .app-container .mobile-simulator .iframe {
+    position: absolute;
+    top: 116px;
+    left: 1px;
+    border: 0;
+    background: #fff;
+    width: 321px;
+    height: 504px
+}
+
+html {
+    color: #000;
+    background: #FFF;
+    font-size: 16px
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, menu, button {
+    margin: 0;
+    padding: 0
+}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0
+}
+
+html, body {
+    min-height: 100%;
+    height: 100%
+}
+
+.main-container {
+    padding-top: 0
+}
+
+.inner {
+    max-width: 1200px;
+    margin: auto
+}
+
+.clearfix {
+    clear: both
+}
+
+.main-container .app-container .enter-editor {
+    background: #fe6d01;
+    color: #fff;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    width: 174px;
+    border-radius: 17px;
+    display: block;
+    margin: auto;
+    font-size: 18px;
+    -webkit-transition: background ease 1s;
+    transition: background ease 1s
+}
+
+.main-container .app-container .enter-editor:hover {
+    background: #fa9441
+}
