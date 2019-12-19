@@ -155,7 +155,6 @@
 	right: 0;
 }
 .circle {
-	width: 90px;
 	height: 20px;
 	background-color: rgba(255, 255, 255, .3);
 	position: absolute;
@@ -163,7 +162,7 @@
 	bottom: 20px;
 	transform: translateX(-50%);
 	border-radius: 10px;
-	padding-left: 8px;
+	padding-left: 0 8px 0 8px;
 }
 .circle li {
 	width: 12px;
