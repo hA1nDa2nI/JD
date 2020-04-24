@@ -571,15 +571,15 @@
 	width: 60px;
 }
 .fixedtool li {
-	height: 40px;
-	width: 30px;
-	line-height: 20px;
-	font-size: 12px;
+	height: 60px;
+	width: 60px;
+	padding: 11px 16px;
+	box-sizing: border-box;
+	font-size: 14px;
 	text-align: center;
 	border-bottom: 1px solid #ccc;
 	cursor: pointer;
 	background-color: #fff;
-	padding: 5px 0;
 }
 .fixedtool li:first-child {
 	color: #e1251b;
